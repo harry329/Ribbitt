@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usernamehint">Username</string>
+    <string name="passwordhint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="sign_up_text">Don\'t have an account? Sign Up!</string>
+    <string name="emailhint">Email</string>
+    <string name="signUpButtonLabel">SIGN UP</string>
+</resources>

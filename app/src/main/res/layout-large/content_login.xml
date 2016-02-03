@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.LoginActivity"
+    tools:showIn="@layout/activity_login"
+    android:id="@+id/relativeLayoutLogin"
+    style="@style/AuthBackground">
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        style="@style/AuthBackgroundImage" />
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/AuthTitle"
+        android:layout_marginTop="180dp"/>
+
+    <LinearLayout
+        android:id="@+id/editTextLayout"
+        style="@style/AuthFieldContainer"
+        android:layout_centerHorizontal="true"
+        android:layout_width="400dp">
+
+        <EditText
+            android:id="@+id/usernamefield"
+            android:hint="@string/usernamehint"
+            style="@style/AuthEditText" >
+            <requestFocus/>
+        </EditText>
+
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/passwordfield"
+            style="@style/AuthEditText"
+            android:hint="@string/passwordhint" />
+    </LinearLayout>
+
+    <Button
+        android:text="@string/login_button"
+        android:id="@+id/loginButton"
+        android:layout_below="@+id/editTextLayout"
+        style="@style/AuthButton"
+        android:layout_centerHorizontal="true"
+        android:layout_width="400dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up_text"
+        android:id="@+id/signUpText"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/loginButton"
+        android:layout_marginTop="12dp"
+        android:textColor="@android:color/white"/>
+
+
+
+</RelativeLayout>

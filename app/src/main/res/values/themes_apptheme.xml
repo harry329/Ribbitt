@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="AppTheme" parent="Theme.AppCompat.Light">
+
+    <item name="android:editTextStyle">@style/EditTextAppTheme</item>
+    <item name = "android:listViewStyle">@style/LightPurpleBackground</item>
+    <item name = "android:gridViewStyle">@style/LightPurpleBackground.GridView</item>
+  </style>
+  
+  <style name="LightPurpleBackground">
+    <item name="android:background">@color/light_purple_background</item>
+    <item name="android:divider">@null</item>
+  </style>
+
+  <style name="LightPurpleBackground.GridView">
+    <item name="android:padding">@dimen/user_name_spacing</item>
+    <item name="android:divider">@null</item>
+  </style>
+
+  <style name="AuthBackground">
+    <item name="android:background">@drawable/background_fill</item>
+  </style>
+
+</resources>

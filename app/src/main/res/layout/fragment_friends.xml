@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/friendsGrid"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:numColumns="auto_fit"
+        android:columnWidth="90dp"
+        android:stretchMode="columnWidth"
+        android:layout_alignParentEnd="true"
+        android:clipToPadding="false"
+        android:verticalSpacing="@dimen/user_name_spacing"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:horizontalSpacing="@dimen/user_name_spacing"/>
+
+
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/empty_friends_label"/>
+</RelativeLayout>
